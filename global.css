@@ -1,0 +1,42 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* colocar with:100, display:block, para imagen nao crescer infinitamente */
+
+img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+
+.subutitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subutitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !import;
+  }
+}
